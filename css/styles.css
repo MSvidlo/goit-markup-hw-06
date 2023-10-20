@@ -211,27 +211,31 @@ img {
 .button:focus {
     background-color: #404BBF;
 }
-
+/* ================================section-adwentages===================== */
 .section-adwentages {
     /* padding: 120px 0; */
-    max-width: 288px;
-    padding-left: 16px;
-    padding-right: 16px;
+   
 }
 
+.adwentages-container
+{
+ padding-top: 96px;
+ padding-bottom: 96px;
+}
 
 .section-advantages-list {
     display: flex;
     flex-wrap:wrap;
     /* gap: 24px; */
     gap:72px;
-}
+    }
 
 
 .second-list-item {
     /* width: calc((100% - 72px) / 4);
        } */
     width: 100%;
+    }
 
        
 .section-adwentages-link{
@@ -255,11 +259,14 @@ img {
 .advantages-item-name {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-transform: capitalize;
+    align-self: stretch;
+    text-align: center
     }
   
 
@@ -276,7 +283,7 @@ img {
     align-items: flex-start;
     gap: 8px
 }
-
+/* =========================Team=================== */
 .one-team {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -841,11 +848,39 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: auto;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
+    
+    .section-advantages-list {
+            gap:72px 24px;
+        }
 
+    .second-list-item {
+            width: calc((100% - 24px) / 2);
+           }
+    .advantages-item-name{
+
+    }
+        .container {
+            width: 768px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+.advantages-item-name{
+    text-align:left;
+}
 }
 
 
-@media screen and (max-width:1158px) {
-
+@media screen and (min-width:1158px) {
+    .section-advantages-list {
+            gap: 24px;
+        }
+   .second-list-item {
+             width: calc((100% - 72px) / 4);
+         }
+    .section-advantages-icon {
+    display: flex;}
+    .container {
+      width: 1448px;
+      padding: 120px 156px;
 }
