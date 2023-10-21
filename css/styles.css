@@ -977,17 +977,32 @@ padding-bottom: 16px;} */
 .section-one-container {
     padding: 112px 136px;
 }
-.footer-one{flex-direction: inherit;
-    padding: 100px  156px}
+.footer-one{
+    padding: 96px 108px}
 .footer-logo{
     margin-left: 0px;
 }
 .footer-form{ flex-direction: inherit;}
 .footer-text {max-width: 264px;
+    margin-bottom: 0;
+    height: 72px;
 
 }
-.footer-text-two{}
+.footer-text-two{margin-left: 0px;}
+.footer-soc-media-list{margin-left: 0px;
+    margin-right: 0px;
+margin-bottom: 0px;}
+.footer-form-title{margin-left: 0;}
+.footer-email{width:264px;}
+.footer-button-form{margin-left: 0px;}
+.footer-container {
+     margin-right: 24px;
 
+}
+.footer-and-soc{
+    display: flex;
+    margin-bottom: 72px;
+}
 }
 
     
@@ -1016,8 +1031,6 @@ padding-bottom: 16px;} */
 
 .team-list-item{width: calc((100% - 72px) / 4);}
 
-/* .portfolio-container {
-    padding: 120px 0} */
 
 .portfolio-list {
     flex-direction: inherit;
@@ -1049,12 +1062,6 @@ padding-bottom: 16px;} */
              display: flex;
              flex-direction: row;
              gap: 40px;
-         }
-    
-         /* .header{padding-top: 16px;
-    padding-bottom: 16px;} */
-         .header-menu {
-             /* padding: 24px 156; */
          }
     
          .header-logo {
@@ -1099,6 +1106,59 @@ padding-bottom: 16px;} */
       padding: 188px 472px;
          }
    .section-one-title{margin-bottom: 48px;}
+   .footer-one {
+       padding: 100px 156px;
+       flex-direction: inherit;
+
+   }
+
+   .footer-logo {
+       margin-left: 0px;
+   }
+
+   .footer-form {
+       flex-direction: inherit;
+   }
+
+   .footer-text {
+       max-width: 264px;
+       margin-bottom: 0;
+       height: 72px;
+
+   }
+
+   .footer-text-two {
+       margin-left: 0px;
+   }
+
+   .footer-soc-media-list {
+       margin-left: 0px;
+       margin-right: 80px;
+       margin-bottom: 0px;
+   }
+   
+
+   .footer-form-title {
+       margin-left: 0;
+   }
+
+   .footer-email {
+       width: 264px;
+   }
+
+   .footer-button-form {
+       margin-left: 0px;
+   }
+
+   .footer-container {
+       margin-right: 120px;
+
+   }
+
+   /* .footer-and-soc {
+       display: flex;
+       margin-bottom: 72px;
+   } */
         }
 
 
