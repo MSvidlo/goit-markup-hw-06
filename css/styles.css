@@ -1007,7 +1007,17 @@ margin-bottom: 0px;}
     display: flex;
     margin-bottom: 72px;
 }
+
+.form-input {width:360px;}
+
+.modal {
+    width: 408px;
+    padding: 72px 25px 24px 25px;
 }
+.form-text {
+    width: 360px;
+}
+.form-button {margin: 24px 96px;}}
 
     
 
