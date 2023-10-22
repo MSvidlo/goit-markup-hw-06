@@ -1001,6 +1001,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: auto;
 }
 
+@media (min-resolution: 192dpi)
+{
+.section-one{background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);}
+}
+/* =======================TABLET=================================== */
 @media screen and (min-width:768px) {
     
     .section-advantages-list {
@@ -1134,7 +1139,7 @@ margin-bottom: 0px;}
 
     
 
-
+/* ============================DESCTOP======================== */
 
 @media screen and (min-width:1158px) {
     .section-advantages-list {
