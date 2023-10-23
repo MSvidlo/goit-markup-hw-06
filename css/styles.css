@@ -213,38 +213,35 @@ img {
     display: flex;
    
 }
+
+.studio{
+    color: var(--OCEAN, #404BBF);
+}
 .header-mobile-contact{margin-top:auto;
 display: flex;
 flex-direction: column;
 gap: 24px;}
 
-.mobile-text:hover{color: var(--OCEAN, #404BBF);
 
-}
-.mobile-text:focus {
-    color: var(--OCEAN, #404BBF);}
 
 .address-info-mobile{
 padding-bottom: 40px;
 color: var(--SLATE, #434455);
-/* Header 3 */
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-/* 120% */
 letter-spacing: 0.4px;
+}
+
+.phone{
+    color: var(--IRIS, #4D5AE5);
 }
 .mobil-soc-list{display: flex;
     align-items: center;
     margin-top: 48px;
     gap: 40px;
     }
-.address-info-mobile:hover{
-    color: var(--IRIS, #4D5AE5);
-}
-.address-info-mobile:focus{
-    color: var(--IRIS, #4D5AE5);
-    }
+
 
 .modal-icon{
 display: flex;
