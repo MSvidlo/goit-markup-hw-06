@@ -1225,6 +1225,7 @@ margin-bottom: 0px;}
     
          .header-menu-list {
              display: flex;
+             padding: 0;
          }
     
          .address-info-list {
@@ -1265,6 +1266,9 @@ margin-bottom: 0px;}
              /* 116.667% */
              letter-spacing: 0.04em;
          }
+                 .address-info-list {
+                     padding-top: 0;
+                 }
     
          .header{padding-top: 24px;
         padding-bottom: 24px;}
@@ -1273,7 +1277,7 @@ margin-bottom: 0px;}
              content: '';
              position: absolute;
              left: 0;
-             bottom: -8px;
+             bottom: -4px;
              height: 4px;
              width: 100%;
              color: #404bbf;
